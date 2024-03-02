@@ -1,0 +1,139 @@
+/* Condiciones iniciales */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+:root {
+    --moradito: #23192d;
+    --amarillo: #FFC436;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--moradito);
+}
+
+/* Código recurrente */
+
+.flexcentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#tituloheader, #tituloheader:hover,
+h1, h1:hover,
+.navh2, .navh2:hover,
+#botoncambiafoto,#botoncambiafoto:hover {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+}
+
+/* header */
+
+
+header {
+    background-image: url(/assets/media/Images/starry-night-sky.jpg);
+    background-size: cover;
+    border: solid black 2px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* nav */
+
+#titulocontainer {
+    height: 40%;
+}
+
+#tituloheader {
+    border: solid var(--moradito) 0.3rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    border-radius: 2rem;
+}
+
+
+h1 {
+    color: #FFF0CE;
+    font-size: 4rem;
+    padding: 0.5rem;
+}
+
+#tituloheader:hover {
+    border: solid var(--moradito) .3rem;
+    background-color: #FFC436;
+}
+
+h1:hover {
+    color: var(--moradito);
+    font-size: 4.5rem;
+}
+
+
+#wrapper {
+    margin-left: 10%;
+    height: 50%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.navbuttoncont {
+    align-items: baseline;
+}
+
+.navbutton {
+    border: solid var(--moradito) 0.2rem;
+    border-radius: 1.5rem;
+}
+
+.navbutton:hover {
+    background-color: #FFC436;
+    border: solid var(--moradito) 0.25rem;
+}
+
+.navh2 {
+    color: #FFF0CE;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.navh2:hover {
+
+    color: var(--moradito);
+    font-size: 3rem;
+}
+
+.separador {
+    padding: 0.5rem;
+    height: 5rem;
+    background-color: #000000;
+}
+
+.separadortitulo{
+    margin-top: 0.4rem;
+    margin-left:0.5rem;
+    font-size: 3rem;
+    color: white;
+}

@@ -1,0 +1,134 @@
+
+#aboutme {
+    height: 200vh;
+    display: flex;
+}
+
+#ams1{
+    width: 33%;
+    height: 100%;
+    background-color: var(--moradito);
+}
+
+#fotosection{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#photocontainer{
+    height: 90%;
+    aspect-ratio: 1/1;
+    border: solid black 2px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#changephotocont{
+    height: 18%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border: solid black 1px;
+}
+
+#changephotobtn{
+    background-image: url(https://visualpharm.com/assets/863/Change-595b40b75ba036ed117d5870.svg);
+
+    height: 100%;
+    width: 100%;
+}
+
+#pfp{
+    height: 100%;
+}
+
+#infosection{
+    height: 105vh;
+    width: 100%;
+}
+
+#contactotitulo{
+    margin: 3rem 2rem 3rem 2rem;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+
+}
+
+.infocuadro{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 85%;
+
+}
+
+.infoicon{
+    height: fit-content;
+    width: fit-content;
+    margin: solid green 4px;
+}
+
+.infoinfo{
+    margin-left: 0.5rem;
+}
+
+#objetivotitulo{ 
+    margin: 3rem 2rem 3rem 2rem;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+}
+
+#objetivotextocont{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: fit-content;
+    width: 80%;
+}
+
+#ams2{
+    height: 100%;
+    width: 67%;
+    background-color: rgba(33, 25, 81, 0.5) ;
+}
+
+.tituloams2{
+    margin: 3rem 2rem 1rem 2rem;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid var(--moradito) .3rem;
+}
+
+.cuadrotextoams2{
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+    height: fit-content;
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+h4{
+    color: white;
+    font-size: 2rem;
+
+}
+
+.amtext{
+    color: white;
+}
