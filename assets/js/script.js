@@ -1,3 +1,5 @@
+alert("Esta página está en construcción, actualmente no lleva ni el 20% de lo que se planea. Por favor no considerar como proyecto completo hasta entonces");
+
 var pfps = [
 "./assets/media/Images/pfps/pfp1.jpeg",
 "./assets/media/Images/pfps/pfp2.jpg",
